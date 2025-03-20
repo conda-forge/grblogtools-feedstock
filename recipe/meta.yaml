@@ -39,6 +39,7 @@ test:
   requires:
     - pip
     - python {{ python_min }}
+    - pytest
 
 about:
   home: https://github.com/Gurobi/grblogtools
