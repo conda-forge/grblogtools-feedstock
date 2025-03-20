@@ -23,7 +23,7 @@ requirements:
     - wheel
     - pip
   run:
-    - python >={{ python_min }},{{ python_max }}
+    - python >={{ python_min }},<={{ python_max }}
     - ipywidgets
     - numpy
     - pandas
