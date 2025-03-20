@@ -33,6 +33,7 @@ test:
     - grblogtools
   commands:
     - pip check
+    - pytest
   requires:
     - pip
     - python {{ python_min }}
