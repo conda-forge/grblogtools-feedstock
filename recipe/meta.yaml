@@ -33,6 +33,8 @@ requirements:
 test:
   imports:
     - grblogtools
+  source_files:
+    - .
   commands:
     - pip check
     - pytest
