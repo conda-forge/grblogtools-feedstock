@@ -1,3 +1,5 @@
+{% set python_max = "3.13" %}
+{% set python_min = "3.8" %}
 {% set name = "grblogtools" %}
 {% set version = "2.2.0" %}
 
@@ -21,7 +23,7 @@ requirements:
     - wheel
     - pip
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},{{ python_max }}
     - ipywidgets
     - numpy
     - pandas
